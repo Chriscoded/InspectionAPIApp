@@ -9,7 +9,7 @@ namespace InspectionAPI.Model
         public string Status { get; set; } = String.Empty;
         [StringLength(200)]
         public string Comments { get; set; } = String.Empty;
-        public int InspectionId { get; set; }
+        public int InspectionTypeId { get; set; }
         public InspectionType? InspectionType { get; set; }
 
     }
